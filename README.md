@@ -1,4 +1,4 @@
-# Личный проект "Mi Music" [![Build status][travis-image]][travis-url] [![dependencies Status](https://david-dm.org/webistomin/mi-music/status.svg)](https://david-dm.org/webistomin/mi-music) [![Dependency status][dependency-image]][dependency-url] 
+# Личный проект "Food" [![Build status][travis-image]][travis-url] [![dependencies Status](https://david-dm.org/webistomin/food-portfolio/status.svg)](https://david-dm.org/webistomin/food-portfolio) [![Dependency status][dependency-image]][dependency-url] 
 
 <table>
   <thead>
@@ -38,10 +38,10 @@
 <img src="mockup/lighthouse.png">
 
 ## Превью сайта
-<img src="mockup/02 - MIMUSIC (Freebie)/01 - Preview Images/Home.png">
+<img src="">
 
-[travis-image]: https://travis-ci.org/webistomin/mi-music.svg?branch=master
-[travis-url]: https://travis-ci.org/webistomin/mi-music
-[dependency-image]: https://david-dm.org/webistomin/mi-music/dev-status.svg
-[dependency-url]: https://david-dm.org/webistomin/mi-music
+[travis-image]: https://travis-ci.org/webistomin/food-portfolio.svg?branch=master
+[travis-url]: https://travis-ci.org/webistomin/food-portfolio
+[dependency-image]: https://david-dm.org/webistomin/food-portfolio/dev-status.svg
+[dependency-url]: https://david-dm.org/webistomin/food-portfolio
 
