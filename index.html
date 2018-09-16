@@ -7,76 +7,143 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="page-header">
-    <div class="page-header__inner">
-      <img src="#" alt="Voronina" class="page-header__logo">
-      <button class="page-header__toggle">
-        <span></span><span></span><span></span>
-      </button>
+<header class="page-header">
+  <div class="page-header__inner">
+    <img src="#" alt="Voronina" class="page-header__logo">
+    <button class="page-header__toggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="main-nav main-nav--closed">
+    <ul class="main-nav__list">
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Портфолио</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Обо мне</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Стоимость</a></li>
+      <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+    </ul>
+  </nav>
+  <section class="intro">
+    <div class="container">
+      <h1 class="intro__title title">Дарья Воронина</h1>
+      <p class="intro__desc">
+        Food — фотограф и food — стилист в Москве и Московской области
+      </p>
+      <a href="#" class="intro__btn btn">Портфолио</a>
     </div>
-    <nav class="main-nav main-nav--closed">
-      <ul class="main-nav__list">
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Портфолио</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Обо мне</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Стоимость</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
-      </ul>
-    </nav>
-    <section class="intro">
-      <div class="container">
-        <h1 class="intro__title title">Дарья Воронина</h1>
-        <p class="intro__desc">
-          Food — фотограф и food — стилист в Москве и Московской области
-        </p>
-        <a href="#" class="intro__link">Портфолио</a>
-      </div>
-    </section>
-  </header>
-  <main class="page-content">
-    <section class="portfolio">
-      <div class="container">
-        <h2 class="portfolio__title title">Портфолио</h2>
-        <div class="portfolio__list">
+  </section>
+</header>
+<main class="page-content">
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="portfolio__title title">Портфолио</h2>
+      <div class="portfolio__list">
+        <div class="portfolio__item">
+          <img src="#" alt="#" class="portfolio__img">
+          <p class="portfolio__tags">#cоцсети</p>
+          <h3 class="portfolio__desc">
+            Фото контент для социальных сетей кондитерской «Леди Мармелад»
+          </h3>
+        </div>
+        <div class="portfolio__column">
           <div class="portfolio__item">
             <img src="#" alt="#" class="portfolio__img">
             <p class="portfolio__tags">#cоцсети</p>
             <h3 class="portfolio__desc">
-              Фото контент для социальных сетей кондитерской «Леди Мармелад»
+              Фото контент для инстаграма ресторана «Funky Food»
             </h3>
-          </div>
-          <div class="portfolio__column">
-            <div class="portfolio__item">
-              <img src="#" alt="#" class="portfolio__img">
-              <p class="portfolio__tags">#cоцсети</p>
-              <h3 class="portfolio__desc">
-                Фото контент для инстаграма ресторана «Funky Food»
-              </h3>
-            </div>
-            <div class="portfolio__item">
-              <img src="#" alt="#" class="portfolio__img">
-              <p class="portfolio__tags">#менюресторана</p>
-              <h3 class="portfolio__desc">
-                Съемка меню ресторана «Хорошая еда»
-              </h3>
-            </div>
           </div>
           <div class="portfolio__item">
             <img src="#" alt="#" class="portfolio__img">
-            <p class="portfolio__tags">#рекламнаясъемка</p>
+            <p class="portfolio__tags">#менюресторана</p>
             <h3 class="portfolio__desc">
-              Съемка для баннерной рекламной печати ресторана «Бранч»
+              Съемка меню ресторана «Хорошая еда»
             </h3>
           </div>
         </div>
+        <div class="portfolio__item">
+          <img src="#" alt="#" class="portfolio__img">
+          <p class="portfolio__tags">#рекламнаясъемка</p>
+          <h3 class="portfolio__desc">
+            Съемка для баннерной рекламной печати ресторана «Бранч»
+          </h3>
+        </div>
       </div>
-      <div class="portfolio__inner">
-        <h2 class="portfolio__title title">Подробное портфолио</h2>
-        <p class="portfolio__desc">
-          С описанием задач заказчика, полного процесса работы и финальным результатом
+    </div>
+    <div class="portfolio__inner">
+      <h2 class="portfolio__title title">Подробное портфолио</h2>
+      <p class="portfolio__desc">
+        С описанием задач заказчика, полного процесса работы и финальным результатом
+      </p>
+      <a href="#" class="portfolio__btn btn">Скачать в PDF</a>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <h2 class="about__title title">Обо мне</h2>
+      <div class="about__images">
+        <img src="#" alt="" class="about__img">
+        <img src="#" alt="" class="about__img">
+      </div>
+      <div class="about__inner">
+        <p class="about__desc">
+          Во всех фотосъемках еды, я работаю как фуд-фотограф и фуд-стилист.
+          Создаю креативные концепции, реализую ваши идеи. Разрабатываю рецепты, вкусно снимаю. Провожу обучение
         </p>
-        <a href="#" class="intro__link">Скачать в PDF</a>
+        <p class="about__desc">
+          Всегда открыта к сотрудничеству <br>
+          и рада новым предложениям
+        </p>
+        <p class="about__info">
+          <a href="#" class="about__link">Mail: daria.voronina@gmail.com</a>
+          <a href="#" class="about__link">Tel.: + 7 916 66 77 112</a>
+        </p>
+        <a href="#" class="about__btn btn">Работать со мной</a>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+  <section class="price">
+    <div class="container">
+      <h2 class="price__title title">Стоимость</h2>
+      <ul class="price__list">
+        <li class="price__item">
+          <img src="#" alt="" class="price__img">
+          <p class="price__desc"><strong class="price__time">12 часов съемки</strong>
+            <br> – 30 000 рублей</p>
+          <ul class="price__options">
+            <li class="price__option">Подготовка к съемке от 1 недели</li>
+            <li class="price__option">Предварительный дизайн — проект</li>
+            <li class="price__option">Food - стилизация</li>
+            <li class="price__option">Расширенный реквизит</li>
+            <li class="price__option">Цветокоррекция и пост-обработка</li>
+            <li class="price__option">Результаты в течение 3-х дней</li>
+          </ul>
+        </li>
+        <li class="price__item">
+          <img src="#" alt="" class="price__img">
+          <p class="price__desc"><strong class="price__time">4 часов съемки</strong>
+            <br> – 15 000 рублей</p>
+          <ul class="price__options">
+            <li class="price__option">Подготовка к съемке – 1 день</li>
+            <li class="price__option">Food - стилизация</li>
+            <li class="price__option">Использование реквезита</li>
+            <li class="price__option">Цветокоррекция и пост-обработка</li>
+            <li class="price__option">Результаты в течение 3-х дней</li>
+          </ul>
+        </li>
+        <li class="price__item">
+          <img src="#" alt="" class="price__img">
+          <p class="price__desc"><strong class="price__time">1 час съемки</strong>
+            <br> – 4 000 рублей</p>
+          <ul class="price__options">
+              <li class="price__option">Food - стилизация</li>
+            <li class="price__option">Использование реквезита</li>
+            <li class="price__option">Цветокоррекция</li>
+            <li class="price__option">Результаты в течение 5-ти дней</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
 </body>
 </html>
