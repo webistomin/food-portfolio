@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2fad4ec-74ad-481f-81d2-165aeb5d21ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,7 +98,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1378" />
@@ -117,6 +116,11 @@
             <path>
               <item name="food-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="food-portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,16 +158,15 @@
       <option name="presentableId" value="Default" />
       <updated>1537090269735</updated>
       <workItem from="1537090307167" duration="3034000" />
-      <workItem from="1537109126780" duration="416000" />
+      <workItem from="1537109126780" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3450000" />
+    <option name="totallyTimeSpent" value="3579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
