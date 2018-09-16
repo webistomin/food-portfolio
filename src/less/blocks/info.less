@@ -1,0 +1,33 @@
+.info {
+  margin-top: -100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/info-bg@1x.png");
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+
+  &__title {
+    margin-bottom: 50px;
+    min-width: 170px;
+  }
+
+  &__link {
+    padding: 20px 0;
+    display: block;
+    font-family: 'Barlow', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+
+    &:hover,
+    &:focus {
+      color: @color-pink;
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}
