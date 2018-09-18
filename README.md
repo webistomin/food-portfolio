@@ -38,7 +38,7 @@
 <img src="mockup/lighthouse.png">
 
 ## Превью сайта
-<img src="">
+<img src="mockup/mockup.png">
 
 [travis-image]: https://travis-ci.org/webistomin/food-portfolio.svg?branch=master
 [travis-url]: https://travis-ci.org/webistomin/food-portfolio
